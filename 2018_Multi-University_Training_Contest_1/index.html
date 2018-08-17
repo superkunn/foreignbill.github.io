@@ -119,7 +119,7 @@
 <li>讨论被<span><span class="MathJax_Preview">3</span><script type="math/tex">3</script></span>和<span><span class="MathJax_Preview">4</span><script type="math/tex">4</script></span>整除的情况。</li>
 </ul>
 <h2 id="bbalanced-sequence">B.Balanced Sequence</h2>
-<p><strong>Solved by ghk.3:04(+3)</strong></p>
+<p><strong>Solved by jjm.3:04(+3)</strong></p>
 <ul>
 <li>串内的先处理一下，消除掉。</li>
 <li>串与串之间用一种贪心的拼接方式，相当于<code>(</code>为0，<code>)</code>为1，求一个最小的字典序。</li>
@@ -135,7 +135,7 @@
 <li>区间排序，处理包含的区间，优先队列维护当前区间可取的值，双指针扫一遍。</li>
 </ul>
 <h2 id="gchiaki-sequence-revisited">G.Chiaki Sequence Revisited</h2>
-<p><strong>Upsolved by jjm.</strong></p>
+<p><strong>Upsolved by ghk.</strong></p>
 <ul>
 <li>去除第1项，<span><span class="MathJax_Preview">{a_n}</span><script type="math/tex">{a_n}</script></span>的每一个不同的项都出现了<code>lowbit(x)+1</code>次，即呈现(1,1),(2,2),(3,1),(4,3)的形式。(a,b)表示a出现了b次。</li>
 <li>考虑枚举出现i次的数列，<span><span class="MathJax_Preview">{1,3,5,7,...}</span><script type="math/tex">{1,3,5,7,...}</script></span>、<span><span class="MathJax_Preview">{2,6,10,...}</span><script type="math/tex">{2,6,10,...}</script></span>...呈现为等差数列形式，可以<span><span class="MathJax_Preview">\log</span><script type="math/tex">\log</script></span>复杂度内计算出$ 1 ~ k $的和。</li>
